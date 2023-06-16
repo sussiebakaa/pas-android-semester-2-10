@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".DetailActivity">
+
+    <ImageView
+        android:id="@+id/image_food"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@tools:sample/avatars"
+        />
+
+
+    <TextView
+        android:id="@+id/name_food"
+        android:layout_width="0dp"
+        android:fontFamily="@font/bold"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="@color/orange"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_food"
+        tools:text="@tools:sample/full_names" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/name_food"
+        app:layout_constraintBottom_toBottomOf="@id/name_food"/>
+
+    <TextView
+        android:id="@+id/resep_food1"
+        android:fontFamily="@font/medium"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/orangemuda"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@id/name_food"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@id/name_food"
+        app:layout_constraintTop_toBottomOf="@id/name_food"
+        tools:text="@tools:sample/lorem" />
+
+    <TextView
+        android:id="@+id/resep_food2"
+        android:fontFamily="@font/medium"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/orangemuda"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/resep_food1"
+        app:layout_constraintEnd_toEndOf="@id/name_food"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@id/name_food"
+        tools:layout_editor_absoluteY="167dp"
+        tools:text="@tools:sample/lorem" />
+
+    <TextView
+        android:id="@+id/resep_food3"
+        android:fontFamily="@font/medium"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/orangemuda"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/resep_food2"
+        app:layout_constraintEnd_toEndOf="@id/name_food"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@id/name_food"
+        tools:layout_editor_absoluteY="167dp"
+        tools:text="@tools:sample/lorem" />
+
+    <TextView
+        android:id="@+id/resep_food4"
+        android:fontFamily="@font/medium"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/orangemuda"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/resep_food3"
+        app:layout_constraintEnd_toEndOf="@id/name_food"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@id/name_food"
+        tools:layout_editor_absoluteY="167dp"
+        tools:text="@tools:sample/lorem" />
+
+    <TextView
+        android:id="@+id/resep_food5"
+        android:fontFamily="@font/medium"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/orangemuda"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/resep_food4"
+        app:layout_constraintEnd_toEndOf="@id/name_food"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@id/name_food"
+        tools:text="@tools:sample/lorem" />
+
+    <TextView
+        android:id="@+id/resep_food6"
+        android:layout_width="0dp"
+        android:fontFamily="@font/medium"
+        android:layout_height="wrap_content"
+        android:textColor="@color/orangemuda"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/resep_food5"
+        app:layout_constraintEnd_toEndOf="@id/name_food"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@id/name_food"
+        tools:text="@tools:sample/lorem" />
+
+    <TextView
+        android:id="@+id/resep_food7"
+        android:layout_width="0dp"
+        android:fontFamily="@font/medium"
+        android:layout_height="wrap_content"
+        android:textColor="@color/orangemuda"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/resep_food6"
+        app:layout_constraintEnd_toEndOf="@id/name_food"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@id/name_food"
+        tools:layout_editor_absoluteY="167dp"
+        tools:text="@tools:sample/lorem" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

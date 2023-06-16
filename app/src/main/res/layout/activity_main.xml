@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_profile"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:paddingTop="10dp"
+        android:src="@drawable/inirpofile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <TextView
+        android:id="@+id/tv_danish"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:fontFamily="@font/bold"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text="Cooking with more \neasier way !"
+        android:textColor="@color/orange"
+        android:textSize="22dp"
+        app:layout_constraintStart_toEndOf="@+id/iv_profile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="32dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_eureka"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/layout_bg"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:layout_constraintTop_toBottomOf="@+id/tv_danish"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:spanCount="2"
+        android:padding="20dp"
+        tools:listitem="@layout/text_row_item"
+        android:clipToPadding="true"
+        android:paddingBottom="5dp"
+        android:paddingTop="20dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

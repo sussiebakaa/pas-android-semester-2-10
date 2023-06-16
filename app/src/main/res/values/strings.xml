@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Coba coba</string>
+
+    <string-array name="onboarding_title">
+        <item>Welcome to Kraukk</item>
+        <item>Learn</item>
+        <item>Cook</item>
+        <item>Serve</item>
+    </string-array>
+
+    <string-array name="onboarding_description">
+        <item>Learn quick and easy recipes with Kraukk App!</item>
+        <item>Complete the ingredients here</item>
+        <item>Complete ingredients, cooking is easier, mother is happy</item>
+        <item>Serve deliciously and temptingly</item>
+    </string-array>
+
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="dont_have_an_account">Don\'t have an account?</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="error_password_dont_match">Password and confirmation password do not match</string>
+    <string name="error_minimal_password">Password must be at least 8 characters</string>
+    <string name="error_valid_email">Please enter a valid email address</string>
+    <string name="error_valid_username">Please enter a valid username</string>
+    <string name="error_field_required">All fields is required and cannot be empty</string>
+    <string name="logout">Logout</string>
+</resources>
